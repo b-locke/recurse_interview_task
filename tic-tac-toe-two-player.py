@@ -18,7 +18,7 @@ def gameLoop():
 
         user_symbol = 'X' if current_player == 1 else 'O'
 
-        user_move = input(f"It's player {current_player}'s move.\n\nWhere would you like to place you piece?\n\n0,0 is the bottom left. 0,2 is the top left.\n\n")
+        user_move = input(f"It's player {current_player}'s move.\n\nWhere would you like to place your piece?\n\n0,0 is the bottom left. 0,2 is the top left.\n\n")
         print("")
         
         try:
