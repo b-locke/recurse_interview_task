@@ -64,7 +64,7 @@ def gameLoop():
 
 def mainLoop():
     user_input = "y"
-    print("\nWelcome to space invaders!\n")
+    print("\nWelcome to Tic Tac Toe!\n")
     while user_input != "n":
         gameLoop()
         user_input = input("Would you like to play again? y/n")
