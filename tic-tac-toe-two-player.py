@@ -44,7 +44,7 @@ def gameLoop():
 
                 for l in lines:
                     li = ''.join(l)
-                    if li == "XXX":
+                    if li == "XXX" or li == "OOO":
                         print(f"\nPlayer {current_player} wins!\n")
                         print_game_board()
                         game_complete = True
